@@ -120,6 +120,18 @@ Trajectory Transformer — 과거 20프레임을 학습하여 미래 10프레임
 
 ---
 
+## 시연 화면
+
+![데모](TTC.png)
+
+<video src="./데모1.mp4" controls width="100%"></video>
+
+
+
+RULE STATUS: DANGER (94%) — 보행자 간 TTC 0.17초 감지 상황
+
+---
+
 
 # 위험도 기준
 
