@@ -72,6 +72,9 @@ YOLOv11과 Trajectory Transformer를 결합한 실시간 교통사고 예측 시
 
 # 시스템 파이프라인
 
+<img width="839" height="192" alt="Image" src="https://github.com/user-attachments/assets/36cd2e77-7fab-46fd-ac21-0e722434cffc" />
+
+
 카메라 영상
 
 ↓
@@ -118,19 +121,51 @@ Trajectory Transformer — 과거 20프레임을 학습하여 미래 10프레임
 | mAP50-95 | 41.7% |
 | Transformer Validation Loss | 0.2956 |
 
+<img width="882" height="307" alt="Image" src="https://github.com/user-attachments/assets/a4d62a78-0388-40bc-966c-8e5a3b4d2ea2" />
+
+<img width="822" height="288" alt="Image" src="https://github.com/user-attachments/assets/b85a13cf-a452-40a7-846e-520df480aaa9" />
+
+<img width="835" height="273" alt="Image" src="https://github.com/user-attachments/assets/47afd794-73dc-4e7f-922e-52462dd33140" />
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1dad1a90-d809-4936-97a2-cfb5a9d074b3" width="48%" />
+  <img src="https://github.com/user-attachments/assets/3fa74f4f-8799-4c29-87a2-be92782f0a6d" width="48%" />
+</p>
+
+<img width="882" height="307" alt="Image" src="https://github.com/user-attachments/assets/b2db27af-1bba-4bbd-872e-069d2d01f391" />
+
 ---
 
 ## 시연 화면
 
+https://github.com/user-attachments/assets/a670638d-9ac3-4ddc-a2e7-62d949fcca35
+
+기존 자체 데이터를 기반으로 TTC 계산을 하려고 했으나 현실에서 고위험군 시나리오DB를 구하는데 한계가 있었음
+이 부분을 공개DB와 사람간의 충돌로 TTC 검증
+
+---
+
+사람-사람 충돌 테스트
+
 ![데모](TTC.png)
 
-<video src="https://github.com" controls width="100%"></video>
-
-
-
-
+https://github.com/user-attachments/assets/69edbf94-47cd-4510-bbe2-4a36c673c899
 
 RULE STATUS: DANGER (94%) — 보행자 간 TTC 0.17초 감지 상황
+
+<img width="3488" height="2476" alt="Image" src="https://github.com/user-attachments/assets/ab6ba8c2-a9fd-42de-83e2-7f6043637690" />
+
+<img width="542" height="264" alt="Image" src="https://github.com/user-attachments/assets/90ab1117-1f14-4af1-81f5-de6328bd6c52" />
+
+
+
+TTC 정량적 평가를 위해 속도/거리 공식을 활용해서 위 디스플레이의 정보를 기반으로 계산기 역산결과
+
+---
+
+공개DB기반 돌발상황 TTC 계산
+
+https://github.com/user-attachments/assets/65621ee7-0689-43d6-ab21-1cd699ad1990
 
 ---
 
