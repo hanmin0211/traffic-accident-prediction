@@ -224,6 +224,9 @@ python main.py
 | `normal` | 정상 scene 데이터 수집 모드 |
 | `demo` | 실시간 AI 시연 모드 |
 
+</div>
+
+
 
 
 
