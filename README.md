@@ -1,3 +1,4 @@
+<div translate="no">
 
 # 교통사고 예측 시스템
 YOLOv11과 Trajectory Transformer를 결합한 실시간 교통사고 예측 시스템입니다.
