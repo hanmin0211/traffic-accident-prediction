@@ -124,7 +124,9 @@ Trajectory Transformer — 과거 20프레임을 학습하여 미래 10프레임
 
 ![데모](TTC.png)
 
-<video src="./데모1.mp4" controls width="100%"></video>
+<video src="https://github.com" controls width="100%"></video>
+
+
 
 
 
